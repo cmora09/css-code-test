@@ -1,0 +1,130 @@
+/* Declaring font families */
+@font-face{
+	font-family: Bungee;
+	src: url(../fonts/Bungee/bungee-regular.woff);
+}
+@font-face{
+	font-family: Cabin;
+	src: url(../fonts/Cabin/cabin-regular.woff);
+}
+@font-face{
+	font-family: Lobster;
+	src: url(../fonts/Lobster/lobster-regular.woff);
+}
+
+/*Nav bar*/
+body{
+	margin: 0;
+	background-color: #f8c9a0;
+}
+#HeaderBar{
+	max-width: 100%;
+	background-color: dimgray;
+	height: 100px;
+}
+.brand-name{
+	display: inline-block;
+	float: left;
+	font-family: Lobster;
+	margin: 0;
+	color: white;
+}
+nav{
+	display: inline-block;
+}
+.nav-links{
+	display: inline-block;
+	float: right;
+	font-family: Bungee;
+	font-size: 1.25em;
+	list-style: none;
+	padding: 0;
+	height: 100px;
+	width: 100%;
+}
+.nav-li{
+	margin-left: 50px;
+	display: inline-block;
+	float:left;
+	padding-left: 10px;
+}
+.nav-a{
+	text-decoration: none;
+	color: black;
+}
+.active a{
+	color: darkred;
+}
+
+.login-btn{
+	margin: 0;
+	padding: 10px 25px;
+	float: right;
+	font-family: Lobster;
+	font-size: 20px;
+	border: none;
+	background-color: green;
+	color: white;
+	z-index: 1000;
+}
+
+.foo-broad{
+	font-family: Bungee;
+	display: inline-block;
+
+}
+
+/* Main Content*/
+#ContentArea{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.address a{
+	font-family: Cabin;
+	text-decoration: none;
+	color: darkred;
+}
+
+.menu-info{
+	font-family: Cabin;
+}
+dd{
+	float: right;
+}
+/* Not sure if this is intentional but i'm the r in the Mockup.png file is red so i'm doing that here*/
+
+.random-r{
+	color: darkred;
+}
+
+#CategoryList{
+	display: inline-block;
+	list-style: none;
+	font-family: Bungee;
+	padding: 0px;
+}
+.category{
+	margin-bottom: 2px;
+	padding: 5px 25px 5px 25px;
+	text-align: center;
+	background-color: dimgray;
+	color: white;
+}
+
+#ProductList{
+	float: right;
+	display: inline-block;
+}
+.selected-category{
+	background-color: darkred;
+}
+
+.category-header{
+	display: inline-block;
+}
+
+.category-name{
+	display: inline-block;
+	font-family: Bungee;
+}
